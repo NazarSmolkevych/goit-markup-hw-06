@@ -697,7 +697,6 @@ transition: box-shadow var(--transition-delay);
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
-        margin-left: 93px;
         margin-bottom: 20px;
         text-transform: uppercase;
         color: var(--hero-title-color);
@@ -711,7 +710,6 @@ transition: box-shadow var(--transition-delay);
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 295px;
-    margin-left: 93px;
     background-color: #2F303A;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -798,7 +796,8 @@ transition: box-shadow var(--transition-delay);
     height: 30px;
     border-radius: 50%;
     background-color: transparent;
-    border:  1px solid #303030;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
 }
 
@@ -815,11 +814,10 @@ color: var(--primary-text-color);
 
 .modal-form{
     display: flex;
+    margin-bottom: 10px;
     flex-direction: column;
 }
-.modal-form-field{
-    margin-bottom: 10px;
-}
+
 .modal-form-input{
    width: 448px;
    height: 40px;
@@ -842,13 +840,15 @@ color: var(--primary-text-color);
         font-size: 12px;
         line-height: 1.16;
         letter-spacing: 0.01em;
-        margin-bottom: 4px;
+       margin-bottom: 4px;
         color: var(--secondary-text-color);
 }
 
 .modal-form-input-wrapper {
     display: block;
     position: relative;
+    margin-bottom: 10px;
+    margin-top: 4px;
 }
 
 .modal-form-input-icon{
@@ -881,6 +881,7 @@ color: var(--primary-text-color);
 .modal-form-check-field{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
 }
 .modal-checkbox {
@@ -892,6 +893,11 @@ color: var(--primary-text-color);
     margin-right: 7px;
 }
 .modal-form-own{
+    font-family: var(--primary-font)
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
     display: none;
     fill: var(--hero-title-color);
 }
